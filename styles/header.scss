@@ -1,0 +1,55 @@
+
+@import "variables";
+.main-page {
+  //background: linear-gradient(327.34deg, rgba(2, 4, 18, 0.97) 39.41%, rgba(2, 4, 18, 0) 75.32%);
+  .nav {
+    display: flex;
+    .header {
+      @media (min-width: 900px){
+        margin-left: 15.9%;
+      }
+      @media (max-width: 900px){
+        margin-left: 5%;
+      }
+
+      .organization-name {
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 86.3925%;
+        letter-spacing: 0.01875em;
+        color: #FFFFFF;
+        margin: 49px 0 0;
+        font-family: 'Roboto', sans-serif;
+        .yellow-text {
+          color: $yellow
+        }
+      }
+      .seminars-organisation {
+        font-size: 7.5px;
+        line-height: 86.3925%;
+        color: #FFFFFF;
+        font-family: $open-sans;
+        margin: 0;
+      }
+    }
+    .header-nav-wrapper {
+      margin-top: 50px;
+      margin-left: 11.25%;
+      @media (min-width: 900px){
+        flex-direction: row;
+      }
+      @media (max-width: 900px){
+        flex-direction: column;
+      }
+      display: flex;
+      a{
+        font-family: $open-sans;
+        text-decoration: none;
+        font-size: 13.5px;
+        line-height: 18.75px;
+        color: rgba(255, 255, 255, 0.85);
+        margin-left: 11%;
+      }
+    }
+  }
+}

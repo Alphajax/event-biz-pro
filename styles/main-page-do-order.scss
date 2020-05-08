@@ -1,0 +1,69 @@
+
+@import "variables";
+.main-page-do-order{
+  margin-top: 56.25px;
+  @media (min-width: 900px){
+    margin-left: 15.9%;
+  }
+  @media (max-width: 900px){
+    margin-left: 5%;
+  }
+  .line{
+    height: 1px;
+    width: 123px;
+    background: $yellow;
+    margin-top: 3px;
+    margin-left: 13.2%;
+  }
+  h2{
+    font-family: $open-sans-condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37.5px;
+    line-height: 99.885%;
+    color: #FCF3F3;
+    margin-bottom: 0;
+  }
+  .bonus{
+    margin-top: 30px;
+    font-family: $open-sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 112.26%;
+    color: #FFFBFB;
+  }
+  .list{
+    margin-top: 30px;
+    ul{
+      list-style-image: url("../assets/images/check.png");
+      li{
+        font-family: $open-sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFF9F9;
+      }
+    }
+  }
+  .send-request {
+    @media (max-width: 500px) {
+      width: 120px;
+      font-size: 12px;
+    }
+    width: 16.25%;
+    height: 52.5px;
+    font-family: $open-sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20.25px;
+    letter-spacing: 0.01125em;
+    color: #000000;
+    border-radius: 3px;
+    border: none;
+    background: $yellow;
+    margin-top: 30px;
+  }
+}

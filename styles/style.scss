@@ -1,0 +1,27 @@
+@import "fonts";
+@import "header";
+@import "main-page-do-order";
+@import "earth";
+@import "four-advantages";
+@import "reviews";
+@import "moon";
+@import "get-call";
+@import "completed-cases";
+@import "map";
+@import "footer";
+@import "hovers";
+html{
+  max-height: 3250px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: black;
+  width: 100vw;
+}
+.main-page-wrapper{
+  height: 1030px;
+}

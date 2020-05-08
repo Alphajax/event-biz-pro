@@ -1,0 +1,75 @@
+@import "variables";
+.get-call{
+  background: #08101B;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  @media (min-width: 900px){
+    padding-left: 15.9%;
+  }
+  @media (max-width: 900px){
+    padding-left: 5%;
+  }
+  .header{
+
+    font-family: $open-sans-condensed-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 145%;
+    color: #FFFFFF;
+  }
+  .paragraph{
+    font-family: $open-sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 19px;
+    color: #FFFFFF;
+  }
+  .line{
+    margin-top: 22px;
+  }
+  .form{
+    margin-top: 50px;
+    display: flex;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+    .name img{
+      width: 283px;
+    }
+    .phone img{
+      width: 283px;
+      margin: 0 38px;
+
+    }
+  }
+  .line{
+    width: 100px;
+    height: 3px;
+    background: $yellow;
+  }
+  .submit{
+    button{
+      display: block;
+      width: 234px;
+      height: 46px;
+      background-color: $yellow;
+      border: 1px solid black;
+      border-radius: 3px;
+      font-family: $open-sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.015em;
+      color: #000000;
+    }
+    img{
+      margin-top: 20px;
+      width: 189px;
+    }
+  }
+}

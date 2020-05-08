@@ -1,0 +1,12 @@
+.four-advantages {
+  position: relative;
+  z-index: 40; }
+  .four-advantages .header {
+    font-family: "Open-Sans-Condensed", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 33px;
+    color: #FFFDFD; }
+
+/*# sourceMappingURL=four-advantages.css.map */

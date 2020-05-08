@@ -1,0 +1,13 @@
+.earth {
+  position: absolute;
+  z-index: 30;
+  height: 778px;
+  width: 778px;
+  background: black !important; }
+  .earth .earth-img {
+    height: 778px;
+    width: 778px;
+    background-image: url("../assets/earthPNG234.jpg");
+    background-size: cover; }
+
+/*# sourceMappingURL=earth.css.map */

@@ -1,0 +1,30 @@
+.earth{
+  position: relative;
+  z-index: 30;
+  height: 778px;
+  width: 778px;
+  left: 37.9%;
+  top: -340px;
+  .earth-img{
+    opacity: 0.4;
+    @media (max-width: 550px) {
+      opacity: 0.2;
+    }
+    height: 778px;
+    width: 778px;
+  }
+  .socials{
+    position: relative;
+    z-index: 25;
+    top: -452px;
+    left: 500px;
+  }
+  .gradient-wrapper{
+    height: 778px;
+    width: 778px;
+    top:-806px;
+    background: linear-gradient(327.34deg, rgba(1, 0, 0, 0.97) 39.41%, rgba(2, 4, 18, 0) 75.32%);
+    position: relative;
+    z-index: 10;
+  }
+}

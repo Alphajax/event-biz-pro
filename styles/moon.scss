@@ -1,0 +1,15 @@
+.moon-first-img, .moon-second-img{
+  width: 1440px;
+  z-index: -10;
+  position: relative;
+  opacity: 0.7;
+}
+.moon-first-img{
+  top: -485px;
+}
+.moon-second-img{
+  top: -691px;
+}
+.moon-first, .moon-second{
+  max-height: 0;
+}

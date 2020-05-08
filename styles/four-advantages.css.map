@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,gBAAgB;EACd,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,EAAE;EACX,wBAAO;IACL,WAAW,ECHO,iCAAiC;IDInD,UAAU,EAAE,MAAM;IAClB,WAAW,EAAE,IAAI;IACjB,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,IAAI;IACjB,KAAK,EAAE,OAAO",
+"sources": ["four-advantages.scss","variables.scss"],
+"names": [],
+"file": "four-advantages.css"
+}
